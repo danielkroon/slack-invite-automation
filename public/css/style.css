@@ -105,6 +105,10 @@ padding: 15px;
 margin-bottom: 15px;
 outline: none;
 }
+
+.field::placeholder {
+	color: #ffffff;
+}
 	.field:focus {
 	border: 1px solid #ffffff;
 	padding: 14px;
@@ -161,4 +165,8 @@ a:hover {
 
 .g-recaptcha, .g-recaptcha > div {
   margin: auto;
+}
+
+.transparent {
+    background:rgba(000,000,000,0.2);
 }

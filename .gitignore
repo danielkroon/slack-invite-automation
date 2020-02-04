@@ -36,3 +36,5 @@ aws/config.sh
 aws/build/
 aws/api-swagger.json
 aws/sam-output.yml
+
+public/.DS_Store
